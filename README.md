@@ -17,3 +17,6 @@ ollama create SLTllama3.1 -f Modelfile
 ```
 python3 run_model.py
 ```
+
+#Important notice
+This project does not have any political purposes. It is for fun only! :)
