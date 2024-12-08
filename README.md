@@ -19,4 +19,4 @@ python3 run_model.py
 ```
 
 # Important notice
-This project does not have any political purposes. It is for fun only! :)
+This project does not have any political purpose. It is for fun only! :)
