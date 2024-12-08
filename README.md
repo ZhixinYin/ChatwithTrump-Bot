@@ -6,7 +6,7 @@ The trained model is llama3.1-8B. You can also train your own AI model. You can 
 ### Prerequisite
 Make sure you have [ollama](https://ollama.com) and [python](https://www.python.org)
 
-### 
+### Use ollama to create trained model
 
 ```
 ollama create SLTllama3.1 -f Modelfile
