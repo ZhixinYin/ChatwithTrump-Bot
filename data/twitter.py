@@ -1,3 +1,4 @@
+# Code by Zhixin Yin
 from pynput.mouse import Controller
 import time
 from PIL import ImageGrab
@@ -54,6 +55,10 @@ def scroll_vertically(amount):
 being opened and the content will be returned
 """
 def get_content():
+    """ please change the coordinate of the mouse to correspond to your own device
+    before executing. Mine is Macbook pro 14 inches with M1 Max with two tabs open
+    (one x.com and one new tab).
+    """
     pyautogui.moveTo(420, 240, duration = 0)
     pyautogui.hotkey('command', 'a')
     pyautogui.hotkey('command', 'c')
