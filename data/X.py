@@ -56,7 +56,7 @@ being opened and the content will be returned
 """
 def get_content():
     """ please change the coordinate of the mouse to correspond to your own device
-    before executing. Mine is Macbook pro 14 inches with M1 Max with two tabs open
+    before executing. Mine is Macbook Pro 14 inches with M1 Max with two tabs open
     (one x.com and one new tab).
     """
     pyautogui.moveTo(420, 240, duration = 0)
