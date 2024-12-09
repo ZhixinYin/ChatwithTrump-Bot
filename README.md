@@ -9,7 +9,7 @@ Make sure you have [ollama](https://ollama.com) and [python](https://www.python.
 ### Use ollama to create trained model
 
 ```
-ollama create SLTllama3.1 -f Modelfile
+ollama create SpeakwithTrump -f Modelfile
 ```
 
 ### Run the model
