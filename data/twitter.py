@@ -131,7 +131,7 @@ for x in range(num_iterates):
     # make sure the content is valid
     if ((len(content) != 0) and (content != '-1') and (content != previous_content)):
         # ask ChatGPT to get the prompt
-        text =  ('I\'d like to train my own AI to speak like Trump, but I only have the answer or the message said by Trump. Can you give me the question asking about the following answer, make the question as specific as possible, like specify the person, location and so on and do not say something not specific, like this, that and so on (only response the question, nothing else)? Also, write your response in a single paragraph' + content)
+        text =  ('I\'d like to train my own AI to speak like Trump, but I only have the message said by Trump. Can you give me the question asking the following message, make the question as specific as possible, like specify the person, location and so on and do not say something not specific, like this, that and so on (only response the question, nothing else)? Also, write your response in a single paragraph' + content)
         response = ask_chatgpt_without_image(text)
 
         print('The question is:\n' + response)
