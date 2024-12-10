@@ -6,7 +6,7 @@ You can find the data here and can also use them to train your own model.
 ### How did I collect the data
 Basically, I write some code that imitate human scrolling the X on Safari to extract the content. Then, I used OpenAI API to let ChatGPT-4o give me the prompts. You can find more details in X.py
 
-### other ways to collect data
+### Some other ways to collect data
 #### solution 1
 You can also use [X api](https://developer.x.com/en) to collect data, which is lot more faster and efficient, but you need to pay for it. The free plan is literally unusable and the basic plan costs $200 per month.
 #### solution 2
