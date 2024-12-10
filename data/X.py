@@ -12,7 +12,7 @@ import pyperclip
 
 client = OpenAI()
 
-""" this function aims to ask ChatGPT to get the prompt that asks text,
+""" this function aims to ask ChatGPT to get the prompt that asks text and
 the prompt will be returned
 """
 def ask_chatgpt_without_image(text):
