@@ -42,7 +42,7 @@ def main():
 
             # Send the conversation history to the AI model
             response = ollama.chat(
-                model='SpeakwithTrump',
+                model='ChatwithTrump',
                 messages=messages
             )
 
